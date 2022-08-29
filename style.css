@@ -1,0 +1,89 @@
+body {
+  background-color: darkgray;
+}
+
+.nav {
+  display: flex;
+  background-color: gray;
+  justify-content: space-around;
+  
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  padding: 9px 9px;
+}
+
+a:hover {
+  background-color: white;
+  color: black;
+}
+
+.principal {
+  display: flex;
+  justify-content: space-around;
+}
+
+.busqueda { /*barra busqueda*/
+  display: flex;
+  max-width: 100%;
+  justify-content: center;
+  padding-top: 9px;
+}
+
+.principal img {
+  width: 190px;
+}
+
+.inicio {  /*cuadro de inicio*/
+  margin-top: 9px;
+  display: inline-block;
+  background-color: antiquewhite;
+  text-align: center;
+  max-width: 200px;
+  flex-direction: column;
+  border: solid black;
+}
+
+.nosotros {
+  margin-top: 9px;
+  display: inline-block;
+  background-color: antiquewhite;
+  text-align: center;
+  max-width: 200px;
+  flex-direction: column;
+  border: solid black;
+}
+
+.contacto {
+  margin-top: 9px;
+  display: inline-block;
+  background-color: antiquewhite;
+  text-align: center;
+  max-width: 200px;
+  flex-direction: column;
+  border: solid black;
+}
+
+@media (max-width: 650px) {
+
+    body {
+      background-color: darkgray;
+    }
+    .principal {
+      flex-direction: column;
+      display: flex;
+      align-items: center;
+    }
+    
+    .nav {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+    }
+}
+
+.principal h1 {
+  border-bottom: solid black;
+}
